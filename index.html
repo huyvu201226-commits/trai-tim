@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Trái Tim Mưa Hoa 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="scene-container">
+        <!-- Audio với cơ chế preload nhẹ -->
+        <audio id="bgAudio" loop preload="metadata">
+            <source src="Hngle - Tìm em ft. Bảo Anh Official Music Video.mp3" type="audio/mpeg">
+        </audio>
+
+        <div id="videoWrapper" class="video-wrapper">
+            <video id="bgVideo" loop muted playsinline preload="metadata">
+                <source src="From Klickpin.com- Wedding Bouquet Ideas 49 Ideas to Copy-pin-id-3025924747067450.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div id="blackOverlay" class="black-overlay"></div>
+
+        <canvas id="heartCanvas"></canvas>
+
+        <div id="instruction" class="instruction">💡 Click: Đổi màu | Rê chuột: Né nhẹ | Nhấn & Giữ: Vỡ tung mưa hoa ào ạt</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
